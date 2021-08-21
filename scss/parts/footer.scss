@@ -1,0 +1,64 @@
+// pc版
+@media screen and (min-width:1024px) {
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        padding: 14px 5px 14px 1px;
+        font-family: Meiryo;
+        color: #333333;
+        font-size: 12px;
+        small {
+            font-size: 10px;
+            font-family: Meiryo;
+            color: #333333;
+        }
+        &__link__texts {
+            display: flex;
+        }
+        &__link__text {
+            a {
+                text-decoration: none;
+                color: #333333;
+            }
+        }
+        &__link__text1 {
+            margin-right: 32px;
+        }
+        &__link__text2 {
+            margin-right: 30px;
+        }
+    }
+}
+
+// sp版
+@media screen and (max-width:1023px) {
+    .footer {
+        padding: 0px 83px 21px 40px;
+        font-family: Meiryo;
+        color: #333333;
+        font-size: 12px;
+        width: 252px;
+        margin: 0 auto;
+        small {
+            font-size: 10px;
+            font-family: Meiryo;
+            color: #333333;
+        }
+        &__link__texts {
+            display: flex;
+            margin-bottom: 10px;
+        }
+        &__link__text {
+            a {
+                text-decoration: none;
+                color: #333333;
+            }
+        }
+        &__link__text1 {
+            margin-right: 32px;
+        }
+        &__link__text2 {
+            margin-right: 30px;
+        }
+    }
+}
