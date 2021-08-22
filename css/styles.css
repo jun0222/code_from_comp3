@@ -63,6 +63,7 @@ table {
     font-family: Meiryo;
     color: #333333;
     font-size: 12px;
+    grid-column: 2/3;
   }
   .footer small {
     font-size: 10px;
@@ -221,6 +222,7 @@ table {
     right: 30px;
     width: 30px;
     height: 30px;
+    margin-right: 159px;
     transition: all 0.5s;
     cursor: pointer;
     z-index: 3;
@@ -439,5 +441,50 @@ table {
   body {
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .about {
+    display: grid;
+    grid-template-columns: 159px 1fr 159px;
+    grid-template-rows: 88px 100vh 1fr;
+  }
+
+  .about__main {
+    grid-column: 2/3;
+  }
+  .about__main__title {
+    margin-bottom: 36px;
+    font-family: Meiryo;
+    font-size: 14px;
+  }
+  .about__main__contents {
+    width: 583px;
+    font-family: Meiryo;
+    font-size: 14px;
+  }
+  .about__main__contents__content {
+    margin-bottom: 36px;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .about__main {
+    height: 100vh;
+  }
+  .about__main__title {
+    padding-bottom: 36px;
+    font-family: Meiryo;
+    font-size: 14px;
+    width: 294px;
+    margin: 0 auto;
+  }
+  .about__main__contents {
+    font-family: Meiryo;
+    font-size: 14px;
+    width: 294px;
+    margin: 0 auto;
+  }
+  .about__main__contents__content {
+    margin-bottom: 36px;
   }
 }
