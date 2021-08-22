@@ -1,0 +1,18 @@
+// pc版
+@media screen and (min-width: 1024px) {
+    .index {
+        display: grid;
+        grid-template-columns: 159px 1fr 159px;
+        grid-template-rows: 88px 100vh 1fr;
+    }
+    .index__main {
+        grid-column: 2 / 3;
+    }
+}
+
+// sp版
+@media screen and (max-width: 1023px) {
+    .index__main {
+        height: 100vh;
+    }
+}
