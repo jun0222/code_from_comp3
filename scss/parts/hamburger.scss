@@ -1,130 +1,267 @@
-/*============
-nav
-=============*/
-nav {
-    display: block;
-    position: fixed;
-    top: 0;
-    left: -300px;
-    bottom: 0;
-    width: 300px;
-    overflow-x: hidden;
-    overflow-y: auto;
-    -webkit-overflow-scrolling: touch;
-    transition: all .5s;
-    z-index: 3;
-    opacity: 0;
-}
-.open nav {
-    left: 0;
-    opacity: 1;
-}
-nav .inner {
-    padding:35px 50px;
-    ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        li {
-            margin-bottom: 24px;
-            a {
-                display: block;
-                color: #e4e4e4;
-                font-size: 16px;
-                text-decoration: none;
-                transition-duration: 0.2s;
-            }
-            a:hover {
-                opacity: 0.7;
+// pc版
+@media screen and (min-width: 1024px) {
+    /*============
+    nav
+    =============*/
+    nav {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: -300px;
+        bottom: 0;
+        width: 300px;
+        overflow-x: hidden;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+        transition: all .5s;
+        z-index: 3;
+        opacity: 0;
+    }
+    .open nav {
+        left: 0;
+        opacity: 1;
+    }
+    nav .inner {
+        padding:35px 50px;
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            li {
+                margin-bottom: 24px;
+                a {
+                    display: block;
+                    color: #e4e4e4;
+                    font-size: 16px;
+                    text-decoration: none;
+                    transition-duration: 0.2s;
+                }
+                a:hover {
+                    opacity: 0.7;
+                }
             }
         }
     }
-}
-@media screen and (max-width: 767px) {
-    nav {
-        left: -220px;
-        width: 220px;
+    @media screen and (max-width: 767px) {
+        nav {
+            left: -220px;
+            width: 220px;
+        }
     }
-}
-/*============
-.toggle_btn
-=============*/
-.toggle_btn {
-    display: block;
-    position: fixed;
-    top: 30px;
-    right: 30px;
-    width: 30px;
-    height: 30px;
-    transition: all .5s;
-    cursor: pointer;
-    z-index: 3;
-    span {
+    /*============
+    .toggle_btn
+    =============*/
+    .toggle_btn {
         display: block;
-        position: absolute;
-        left: 0;
+        position: fixed;
+        top: 30px;
+        right: 30px;
         width: 30px;
-        height: 2px;
-        background-color: #333;
-        border-radius: 4px;
+        height: 30px;
+        transition: all .5s;
+        cursor: pointer;
+        z-index: 3;
+        span {
+            display: block;
+            position: absolute;
+            left: 0;
+            width: 30px;
+            height: 2px;
+            background-color: #333;
+            border-radius: 4px;
+            transition: all .5s;
+        }
+        span:nth-child(1) {
+            top: 8px;
+        }
+        span:nth-child(2) {
+            bottom: 8px;
+        }
+    }
+    .open .toggle_btn {
+        span {
+            background-color: #fff;
+        }
+        span:nth-child(1) {
+            top: 4px;
+            -webkit-transform: translateY(10px) rotate(-315deg);
+            transform: translateY(10px) rotate(-45deg);
+        }
+        span:nth-child(2) {
+            bottom: 4px;
+            -webkit-transform: translateY(-10px) rotate(315deg);
+            transform: translateY(-10px) rotate(45deg);
+        }
+    } 
+    /*============
+    #mask
+    =============*/
+    #mask {
+        display: none;
         transition: all .5s;
     }
-    span:nth-child(1) {
-        top: 8px;
+    .open #mask {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #000;
+        opacity: .8;
+        z-index: 2;
+        cursor: pointer;
     }
-    span:nth-child(2) {
-        bottom: 8px;
+    /*============
+    main
+    =============*/
+    main {
+        padding: 50px;
+        h1 {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 400;
+            text-align: center;
+        }
     }
-}
-.open .toggle_btn {
-    span {
-        background-color: #fff;
-    }
-    span:nth-child(1) {
-        top: 4px;
-        -webkit-transform: translateY(10px) rotate(-315deg);
-        transform: translateY(10px) rotate(-45deg);
-    }
-    span:nth-child(2) {
-        bottom: 4px;
-        -webkit-transform: translateY(-10px) rotate(315deg);
-        transform: translateY(-10px) rotate(45deg);
-    }
-} 
-/*============
-#mask
-=============*/
-#mask {
-    display: none;
-    transition: all .5s;
-}
-.open #mask {
-    display: block;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #000;
-    opacity: .8;
-    z-index: 2;
-    cursor: pointer;
-}
-/*============
-main
-=============*/
-main {
-    padding: 50px;
-    h1 {
+    /*============
+    body
+    =============*/
+    body {
         font-family: 'Open Sans', sans-serif;
         font-weight: 400;
-        text-align: center;
     }
 }
-/*============
-body
-=============*/
-body {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
+
+// sp版
+@media screen and (max-width: 1023px) {
+    /*============
+    nav
+    =============*/
+    nav {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: -300px;
+        bottom: 0;
+        width: 300px;
+        overflow-x: hidden;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+        transition: all .5s;
+        z-index: 3;
+        opacity: 0;
+    }
+    .open nav {
+        left: 0;
+        opacity: 1;
+    }
+    nav .inner {
+        padding:35px 50px;
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            li {
+                margin-bottom: 24px;
+                a {
+                    display: block;
+                    color: #e4e4e4;
+                    font-size: 16px;
+                    text-decoration: none;
+                    transition-duration: 0.2s;
+                }
+                a:hover {
+                    opacity: 0.7;
+                }
+            }
+        }
+    }
+    @media screen and (max-width: 767px) {
+        nav {
+            left: -220px;
+            width: 220px;
+        }
+    }
+    /*============
+    .toggle_btn
+    =============*/
+    .toggle_btn {
+        display: block;
+        position: fixed;
+        top: 30px;
+        right: 40px;
+        width: 30px;
+        height: 30px;
+        transition: all .5s;
+        cursor: pointer;
+        z-index: 3;
+        span {
+            display: block;
+            position: absolute;
+            left: 0;
+            width: 30px;
+            height: 2px;
+            background-color: #333;
+            border-radius: 4px;
+            transition: all .5s;
+        }
+        span:nth-child(1) {
+            top: 8px;
+        }
+        span:nth-child(2) {
+            bottom: 8px;
+        }
+    }
+    .open .toggle_btn {
+        span {
+            background-color: #fff;
+        }
+        span:nth-child(1) {
+            top: 4px;
+            -webkit-transform: translateY(10px) rotate(-315deg);
+            transform: translateY(10px) rotate(-45deg);
+        }
+        span:nth-child(2) {
+            bottom: 4px;
+            -webkit-transform: translateY(-10px) rotate(315deg);
+            transform: translateY(-10px) rotate(45deg);
+        }
+    } 
+    /*============
+    #mask
+    =============*/
+    #mask {
+        display: none;
+        transition: all .5s;
+    }
+    .open #mask {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #000;
+        opacity: .8;
+        z-index: 2;
+        cursor: pointer;
+    }
+    /*============
+    main
+    =============*/
+    main {
+        padding: 50px;
+        h1 {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 400;
+            text-align: center;
+        }
+    }
+    /*============
+    body
+    =============*/
+    body {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+    }
 }
