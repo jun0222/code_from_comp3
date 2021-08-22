@@ -1,0 +1,7 @@
+// PCorスマホでHTMLの表示/非表示を切り替える
+.pc { display: block !important; }
+.sp { display: none !important; }
+@media only screen and (max-width: 1023px) {
+    .pc { display: none !important; }
+    .sp { display: block !important; }
+}
