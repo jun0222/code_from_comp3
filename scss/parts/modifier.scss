@@ -5,3 +5,12 @@
     .pc { display: none !important; }
     .sp { display: block !important; }
 }
+
+// hover時に半透明化
+.hover-opacity {
+    transition:300ms;
+}
+.hover-opacity:hover {
+    opacity: 0.7;
+    color: #333333;
+}
