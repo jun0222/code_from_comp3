@@ -886,8 +886,8 @@ table {
 @media screen and (max-width: 1023px) {
   .item1__main {
     display: grid;
-    grid-template-columns: 138px 138px;
-    grid-template-rows: 220px 220px 220px 220px;
+    grid-template-columns: 280px;
+    grid-template-rows: 44px 280px 1fr 100px;
     column-gap: 17px;
     row-gap: 24px;
     justify-content: center;
@@ -895,19 +895,39 @@ table {
     font-family: Meiryo;
     font-size: 12px;
   }
-  .item1__main__content img {
+  .item1__main__title p {
+    margin-top: 24px;
+  }
+  .item1__main__image img {
     width: 100%;
     margin-bottom: 13px;
   }
-  .item1__main__content p {
+  .item1__main__image p {
     margin-bottom: 6px;
   }
-  .item1__main__content__more-btn {
+  .item1__main__image__more-btn {
     grid-column: 1/3;
     text-align: center;
     margin-bottom: 109px;
   }
-  .item1__main__content__more-btn a {
+  .item1__main__image__more-btn a {
+    color: #333333;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Meiryo;
+  }
+  .item1__main__texts {
+    color: #333333;
+    font-family: Meiryo;
+    font-size: 14px;
+  }
+  .item1__main__text {
+    margin-bottom: 30px;
+  }
+  .item1__main__backlink {
+    text-align: center;
+  }
+  .item1__main__backlink a {
     color: #333333;
     text-decoration: none;
     font-size: 14px;
@@ -981,8 +1001,8 @@ table {
 @media screen and (max-width: 1023px) {
   .item2__main {
     display: grid;
-    grid-template-columns: 138px 138px;
-    grid-template-rows: 220px 220px 220px 220px;
+    grid-template-columns: 280px;
+    grid-template-rows: 44px 280px 1fr 100px;
     column-gap: 17px;
     row-gap: 24px;
     justify-content: center;
@@ -990,19 +1010,39 @@ table {
     font-family: Meiryo;
     font-size: 12px;
   }
-  .item2__main__content img {
+  .item2__main__title p {
+    margin-top: 24px;
+  }
+  .item2__main__image img {
     width: 100%;
     margin-bottom: 13px;
   }
-  .item2__main__content p {
+  .item2__main__image p {
     margin-bottom: 6px;
   }
-  .item2__main__content__more-btn {
+  .item2__main__image__more-btn {
     grid-column: 1/3;
     text-align: center;
     margin-bottom: 109px;
   }
-  .item2__main__content__more-btn a {
+  .item2__main__image__more-btn a {
+    color: #333333;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Meiryo;
+  }
+  .item2__main__texts {
+    color: #333333;
+    font-family: Meiryo;
+    font-size: 14px;
+  }
+  .item2__main__text {
+    margin-bottom: 30px;
+  }
+  .item2__main__backlink {
+    text-align: center;
+  }
+  .item2__main__backlink a {
     color: #333333;
     text-decoration: none;
     font-size: 14px;
@@ -1076,8 +1116,8 @@ table {
 @media screen and (max-width: 1023px) {
   .item3__main {
     display: grid;
-    grid-template-columns: 138px 138px;
-    grid-template-rows: 220px 220px 220px 220px;
+    grid-template-columns: 280px;
+    grid-template-rows: 44px 280px 1fr 100px;
     column-gap: 17px;
     row-gap: 24px;
     justify-content: center;
@@ -1085,19 +1125,39 @@ table {
     font-family: Meiryo;
     font-size: 12px;
   }
-  .item3__main__content img {
+  .item3__main__title p {
+    margin-top: 24px;
+  }
+  .item3__main__image img {
     width: 100%;
     margin-bottom: 13px;
   }
-  .item3__main__content p {
+  .item3__main__image p {
     margin-bottom: 6px;
   }
-  .item3__main__content__more-btn {
+  .item3__main__image__more-btn {
     grid-column: 1/3;
     text-align: center;
     margin-bottom: 109px;
   }
-  .item3__main__content__more-btn a {
+  .item3__main__image__more-btn a {
+    color: #333333;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Meiryo;
+  }
+  .item3__main__texts {
+    color: #333333;
+    font-family: Meiryo;
+    font-size: 14px;
+  }
+  .item3__main__text {
+    margin-bottom: 30px;
+  }
+  .item3__main__backlink {
+    text-align: center;
+  }
+  .item3__main__backlink a {
     color: #333333;
     text-decoration: none;
     font-size: 14px;
@@ -1171,8 +1231,8 @@ table {
 @media screen and (max-width: 1023px) {
   .item4__main {
     display: grid;
-    grid-template-columns: 138px 138px;
-    grid-template-rows: 220px 220px 220px 220px;
+    grid-template-columns: 280px;
+    grid-template-rows: 44px 280px 1fr 100px;
     column-gap: 17px;
     row-gap: 24px;
     justify-content: center;
@@ -1180,19 +1240,39 @@ table {
     font-family: Meiryo;
     font-size: 12px;
   }
-  .item4__main__content img {
+  .item4__main__title p {
+    margin-top: 24px;
+  }
+  .item4__main__image img {
     width: 100%;
     margin-bottom: 13px;
   }
-  .item4__main__content p {
+  .item4__main__image p {
     margin-bottom: 6px;
   }
-  .item4__main__content__more-btn {
+  .item4__main__image__more-btn {
     grid-column: 1/3;
     text-align: center;
     margin-bottom: 109px;
   }
-  .item4__main__content__more-btn a {
+  .item4__main__image__more-btn a {
+    color: #333333;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Meiryo;
+  }
+  .item4__main__texts {
+    color: #333333;
+    font-family: Meiryo;
+    font-size: 14px;
+  }
+  .item4__main__text {
+    margin-bottom: 30px;
+  }
+  .item4__main__backlink {
+    text-align: center;
+  }
+  .item4__main__backlink a {
     color: #333333;
     text-decoration: none;
     font-size: 14px;
@@ -1266,8 +1346,8 @@ table {
 @media screen and (max-width: 1023px) {
   .item5__main {
     display: grid;
-    grid-template-columns: 138px 138px;
-    grid-template-rows: 220px 220px 220px 220px;
+    grid-template-columns: 280px;
+    grid-template-rows: 44px 280px 1fr 100px;
     column-gap: 17px;
     row-gap: 24px;
     justify-content: center;
@@ -1275,19 +1355,39 @@ table {
     font-family: Meiryo;
     font-size: 12px;
   }
-  .item5__main__content img {
+  .item5__main__title p {
+    margin-top: 24px;
+  }
+  .item5__main__image img {
     width: 100%;
     margin-bottom: 13px;
   }
-  .item5__main__content p {
+  .item5__main__image p {
     margin-bottom: 6px;
   }
-  .item5__main__content__more-btn {
+  .item5__main__image__more-btn {
     grid-column: 1/3;
     text-align: center;
     margin-bottom: 109px;
   }
-  .item5__main__content__more-btn a {
+  .item5__main__image__more-btn a {
+    color: #333333;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Meiryo;
+  }
+  .item5__main__texts {
+    color: #333333;
+    font-family: Meiryo;
+    font-size: 14px;
+  }
+  .item5__main__text {
+    margin-bottom: 30px;
+  }
+  .item5__main__backlink {
+    text-align: center;
+  }
+  .item5__main__backlink a {
     color: #333333;
     text-decoration: none;
     font-size: 14px;
@@ -1361,8 +1461,8 @@ table {
 @media screen and (max-width: 1023px) {
   .item6__main {
     display: grid;
-    grid-template-columns: 138px 138px;
-    grid-template-rows: 220px 220px 220px 220px;
+    grid-template-columns: 280px;
+    grid-template-rows: 44px 280px 1fr 100px;
     column-gap: 17px;
     row-gap: 24px;
     justify-content: center;
@@ -1370,19 +1470,39 @@ table {
     font-family: Meiryo;
     font-size: 12px;
   }
-  .item6__main__content img {
+  .item6__main__title p {
+    margin-top: 24px;
+  }
+  .item6__main__image img {
     width: 100%;
     margin-bottom: 13px;
   }
-  .item6__main__content p {
+  .item6__main__image p {
     margin-bottom: 6px;
   }
-  .item6__main__content__more-btn {
+  .item6__main__image__more-btn {
     grid-column: 1/3;
     text-align: center;
     margin-bottom: 109px;
   }
-  .item6__main__content__more-btn a {
+  .item6__main__image__more-btn a {
+    color: #333333;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Meiryo;
+  }
+  .item6__main__texts {
+    color: #333333;
+    font-family: Meiryo;
+    font-size: 14px;
+  }
+  .item6__main__text {
+    margin-bottom: 30px;
+  }
+  .item6__main__backlink {
+    text-align: center;
+  }
+  .item6__main__backlink a {
     color: #333333;
     text-decoration: none;
     font-size: 14px;
@@ -1456,8 +1576,8 @@ table {
 @media screen and (max-width: 1023px) {
   .item7__main {
     display: grid;
-    grid-template-columns: 138px 138px;
-    grid-template-rows: 220px 220px 220px 220px;
+    grid-template-columns: 280px;
+    grid-template-rows: 44px 280px 1fr 100px;
     column-gap: 17px;
     row-gap: 24px;
     justify-content: center;
@@ -1465,19 +1585,39 @@ table {
     font-family: Meiryo;
     font-size: 12px;
   }
-  .item7__main__content img {
+  .item7__main__title p {
+    margin-top: 24px;
+  }
+  .item7__main__image img {
     width: 100%;
     margin-bottom: 13px;
   }
-  .item7__main__content p {
+  .item7__main__image p {
     margin-bottom: 6px;
   }
-  .item7__main__content__more-btn {
+  .item7__main__image__more-btn {
     grid-column: 1/3;
     text-align: center;
     margin-bottom: 109px;
   }
-  .item7__main__content__more-btn a {
+  .item7__main__image__more-btn a {
+    color: #333333;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Meiryo;
+  }
+  .item7__main__texts {
+    color: #333333;
+    font-family: Meiryo;
+    font-size: 14px;
+  }
+  .item7__main__text {
+    margin-bottom: 30px;
+  }
+  .item7__main__backlink {
+    text-align: center;
+  }
+  .item7__main__backlink a {
     color: #333333;
     text-decoration: none;
     font-size: 14px;
@@ -1551,8 +1691,8 @@ table {
 @media screen and (max-width: 1023px) {
   .item8__main {
     display: grid;
-    grid-template-columns: 138px 138px;
-    grid-template-rows: 220px 220px 220px 220px;
+    grid-template-columns: 280px;
+    grid-template-rows: 44px 280px 1fr 100px;
     column-gap: 17px;
     row-gap: 24px;
     justify-content: center;
@@ -1560,19 +1700,39 @@ table {
     font-family: Meiryo;
     font-size: 12px;
   }
-  .item8__main__content img {
+  .item8__main__title p {
+    margin-top: 24px;
+  }
+  .item8__main__image img {
     width: 100%;
     margin-bottom: 13px;
   }
-  .item8__main__content p {
+  .item8__main__image p {
     margin-bottom: 6px;
   }
-  .item8__main__content__more-btn {
+  .item8__main__image__more-btn {
     grid-column: 1/3;
     text-align: center;
     margin-bottom: 109px;
   }
-  .item8__main__content__more-btn a {
+  .item8__main__image__more-btn a {
+    color: #333333;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Meiryo;
+  }
+  .item8__main__texts {
+    color: #333333;
+    font-family: Meiryo;
+    font-size: 14px;
+  }
+  .item8__main__text {
+    margin-bottom: 30px;
+  }
+  .item8__main__backlink {
+    text-align: center;
+  }
+  .item8__main__backlink a {
     color: #333333;
     text-decoration: none;
     font-size: 14px;
@@ -1646,8 +1806,8 @@ table {
 @media screen and (max-width: 1023px) {
   .item9__main {
     display: grid;
-    grid-template-columns: 138px 138px;
-    grid-template-rows: 220px 220px 220px 220px;
+    grid-template-columns: 280px;
+    grid-template-rows: 44px 280px 1fr 100px;
     column-gap: 17px;
     row-gap: 24px;
     justify-content: center;
@@ -1655,19 +1815,39 @@ table {
     font-family: Meiryo;
     font-size: 12px;
   }
-  .item9__main__content img {
+  .item9__main__title p {
+    margin-top: 24px;
+  }
+  .item9__main__image img {
     width: 100%;
     margin-bottom: 13px;
   }
-  .item9__main__content p {
+  .item9__main__image p {
     margin-bottom: 6px;
   }
-  .item9__main__content__more-btn {
+  .item9__main__image__more-btn {
     grid-column: 1/3;
     text-align: center;
     margin-bottom: 109px;
   }
-  .item9__main__content__more-btn a {
+  .item9__main__image__more-btn a {
+    color: #333333;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Meiryo;
+  }
+  .item9__main__texts {
+    color: #333333;
+    font-family: Meiryo;
+    font-size: 14px;
+  }
+  .item9__main__text {
+    margin-bottom: 30px;
+  }
+  .item9__main__backlink {
+    text-align: center;
+  }
+  .item9__main__backlink a {
     color: #333333;
     text-decoration: none;
     font-size: 14px;
@@ -1741,8 +1921,8 @@ table {
 @media screen and (max-width: 1023px) {
   .item10__main {
     display: grid;
-    grid-template-columns: 138px 138px;
-    grid-template-rows: 220px 220px 220px 220px;
+    grid-template-columns: 280px;
+    grid-template-rows: 44px 280px 1fr 100px;
     column-gap: 17px;
     row-gap: 24px;
     justify-content: center;
@@ -1750,19 +1930,39 @@ table {
     font-family: Meiryo;
     font-size: 12px;
   }
-  .item10__main__content img {
+  .item10__main__title p {
+    margin-top: 24px;
+  }
+  .item10__main__image img {
     width: 100%;
     margin-bottom: 13px;
   }
-  .item10__main__content p {
+  .item10__main__image p {
     margin-bottom: 6px;
   }
-  .item10__main__content__more-btn {
+  .item10__main__image__more-btn {
     grid-column: 1/3;
     text-align: center;
     margin-bottom: 109px;
   }
-  .item10__main__content__more-btn a {
+  .item10__main__image__more-btn a {
+    color: #333333;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Meiryo;
+  }
+  .item10__main__texts {
+    color: #333333;
+    font-family: Meiryo;
+    font-size: 14px;
+  }
+  .item10__main__text {
+    margin-bottom: 30px;
+  }
+  .item10__main__backlink {
+    text-align: center;
+  }
+  .item10__main__backlink a {
     color: #333333;
     text-decoration: none;
     font-size: 14px;
@@ -1836,8 +2036,8 @@ table {
 @media screen and (max-width: 1023px) {
   .item11__main {
     display: grid;
-    grid-template-columns: 138px 138px;
-    grid-template-rows: 220px 220px 220px 220px;
+    grid-template-columns: 280px;
+    grid-template-rows: 44px 280px 1fr 100px;
     column-gap: 17px;
     row-gap: 24px;
     justify-content: center;
@@ -1845,19 +2045,39 @@ table {
     font-family: Meiryo;
     font-size: 12px;
   }
-  .item11__main__content img {
+  .item11__main__title p {
+    margin-top: 24px;
+  }
+  .item11__main__image img {
     width: 100%;
     margin-bottom: 13px;
   }
-  .item11__main__content p {
+  .item11__main__image p {
     margin-bottom: 6px;
   }
-  .item11__main__content__more-btn {
+  .item11__main__image__more-btn {
     grid-column: 1/3;
     text-align: center;
     margin-bottom: 109px;
   }
-  .item11__main__content__more-btn a {
+  .item11__main__image__more-btn a {
+    color: #333333;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Meiryo;
+  }
+  .item11__main__texts {
+    color: #333333;
+    font-family: Meiryo;
+    font-size: 14px;
+  }
+  .item11__main__text {
+    margin-bottom: 30px;
+  }
+  .item11__main__backlink {
+    text-align: center;
+  }
+  .item11__main__backlink a {
     color: #333333;
     text-decoration: none;
     font-size: 14px;
@@ -1931,8 +2151,8 @@ table {
 @media screen and (max-width: 1023px) {
   .item12__main {
     display: grid;
-    grid-template-columns: 138px 138px;
-    grid-template-rows: 220px 220px 220px 220px;
+    grid-template-columns: 280px;
+    grid-template-rows: 44px 280px 1fr 100px;
     column-gap: 17px;
     row-gap: 24px;
     justify-content: center;
@@ -1940,19 +2160,39 @@ table {
     font-family: Meiryo;
     font-size: 12px;
   }
-  .item12__main__content img {
+  .item12__main__title p {
+    margin-top: 24px;
+  }
+  .item12__main__image img {
     width: 100%;
     margin-bottom: 13px;
   }
-  .item12__main__content p {
+  .item12__main__image p {
     margin-bottom: 6px;
   }
-  .item12__main__content__more-btn {
+  .item12__main__image__more-btn {
     grid-column: 1/3;
     text-align: center;
     margin-bottom: 109px;
   }
-  .item12__main__content__more-btn a {
+  .item12__main__image__more-btn a {
+    color: #333333;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Meiryo;
+  }
+  .item12__main__texts {
+    color: #333333;
+    font-family: Meiryo;
+    font-size: 14px;
+  }
+  .item12__main__text {
+    margin-bottom: 30px;
+  }
+  .item12__main__backlink {
+    text-align: center;
+  }
+  .item12__main__backlink a {
     color: #333333;
     text-decoration: none;
     font-size: 14px;
@@ -2026,8 +2266,8 @@ table {
 @media screen and (max-width: 1023px) {
   .item13__main {
     display: grid;
-    grid-template-columns: 138px 138px;
-    grid-template-rows: 220px 220px 220px 220px;
+    grid-template-columns: 280px;
+    grid-template-rows: 44px 280px 1fr 100px;
     column-gap: 17px;
     row-gap: 24px;
     justify-content: center;
@@ -2035,19 +2275,39 @@ table {
     font-family: Meiryo;
     font-size: 12px;
   }
-  .item13__main__content img {
+  .item13__main__title p {
+    margin-top: 24px;
+  }
+  .item13__main__image img {
     width: 100%;
     margin-bottom: 13px;
   }
-  .item13__main__content p {
+  .item13__main__image p {
     margin-bottom: 6px;
   }
-  .item13__main__content__more-btn {
+  .item13__main__image__more-btn {
     grid-column: 1/3;
     text-align: center;
     margin-bottom: 109px;
   }
-  .item13__main__content__more-btn a {
+  .item13__main__image__more-btn a {
+    color: #333333;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Meiryo;
+  }
+  .item13__main__texts {
+    color: #333333;
+    font-family: Meiryo;
+    font-size: 14px;
+  }
+  .item13__main__text {
+    margin-bottom: 30px;
+  }
+  .item13__main__backlink {
+    text-align: center;
+  }
+  .item13__main__backlink a {
     color: #333333;
     text-decoration: none;
     font-size: 14px;
@@ -2121,8 +2381,8 @@ table {
 @media screen and (max-width: 1023px) {
   .item14__main {
     display: grid;
-    grid-template-columns: 138px 138px;
-    grid-template-rows: 220px 220px 220px 220px;
+    grid-template-columns: 280px;
+    grid-template-rows: 44px 280px 1fr 100px;
     column-gap: 17px;
     row-gap: 24px;
     justify-content: center;
@@ -2130,19 +2390,39 @@ table {
     font-family: Meiryo;
     font-size: 12px;
   }
-  .item14__main__content img {
+  .item14__main__title p {
+    margin-top: 24px;
+  }
+  .item14__main__image img {
     width: 100%;
     margin-bottom: 13px;
   }
-  .item14__main__content p {
+  .item14__main__image p {
     margin-bottom: 6px;
   }
-  .item14__main__content__more-btn {
+  .item14__main__image__more-btn {
     grid-column: 1/3;
     text-align: center;
     margin-bottom: 109px;
   }
-  .item14__main__content__more-btn a {
+  .item14__main__image__more-btn a {
+    color: #333333;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Meiryo;
+  }
+  .item14__main__texts {
+    color: #333333;
+    font-family: Meiryo;
+    font-size: 14px;
+  }
+  .item14__main__text {
+    margin-bottom: 30px;
+  }
+  .item14__main__backlink {
+    text-align: center;
+  }
+  .item14__main__backlink a {
     color: #333333;
     text-decoration: none;
     font-size: 14px;
@@ -2216,8 +2496,8 @@ table {
 @media screen and (max-width: 1023px) {
   .item15__main {
     display: grid;
-    grid-template-columns: 138px 138px;
-    grid-template-rows: 220px 220px 220px 220px;
+    grid-template-columns: 280px;
+    grid-template-rows: 44px 280px 1fr 100px;
     column-gap: 17px;
     row-gap: 24px;
     justify-content: center;
@@ -2225,19 +2505,39 @@ table {
     font-family: Meiryo;
     font-size: 12px;
   }
-  .item15__main__content img {
+  .item15__main__title p {
+    margin-top: 24px;
+  }
+  .item15__main__image img {
     width: 100%;
     margin-bottom: 13px;
   }
-  .item15__main__content p {
+  .item15__main__image p {
     margin-bottom: 6px;
   }
-  .item15__main__content__more-btn {
+  .item15__main__image__more-btn {
     grid-column: 1/3;
     text-align: center;
     margin-bottom: 109px;
   }
-  .item15__main__content__more-btn a {
+  .item15__main__image__more-btn a {
+    color: #333333;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Meiryo;
+  }
+  .item15__main__texts {
+    color: #333333;
+    font-family: Meiryo;
+    font-size: 14px;
+  }
+  .item15__main__text {
+    margin-bottom: 30px;
+  }
+  .item15__main__backlink {
+    text-align: center;
+  }
+  .item15__main__backlink a {
     color: #333333;
     text-decoration: none;
     font-size: 14px;
@@ -2311,8 +2611,8 @@ table {
 @media screen and (max-width: 1023px) {
   .item16__main {
     display: grid;
-    grid-template-columns: 138px 138px;
-    grid-template-rows: 220px 220px 220px 220px;
+    grid-template-columns: 280px;
+    grid-template-rows: 44px 280px 1fr 100px;
     column-gap: 17px;
     row-gap: 24px;
     justify-content: center;
@@ -2320,19 +2620,39 @@ table {
     font-family: Meiryo;
     font-size: 12px;
   }
-  .item16__main__content img {
+  .item16__main__title p {
+    margin-top: 24px;
+  }
+  .item16__main__image img {
     width: 100%;
     margin-bottom: 13px;
   }
-  .item16__main__content p {
+  .item16__main__image p {
     margin-bottom: 6px;
   }
-  .item16__main__content__more-btn {
+  .item16__main__image__more-btn {
     grid-column: 1/3;
     text-align: center;
     margin-bottom: 109px;
   }
-  .item16__main__content__more-btn a {
+  .item16__main__image__more-btn a {
+    color: #333333;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Meiryo;
+  }
+  .item16__main__texts {
+    color: #333333;
+    font-family: Meiryo;
+    font-size: 14px;
+  }
+  .item16__main__text {
+    margin-bottom: 30px;
+  }
+  .item16__main__backlink {
+    text-align: center;
+  }
+  .item16__main__backlink a {
     color: #333333;
     text-decoration: none;
     font-size: 14px;

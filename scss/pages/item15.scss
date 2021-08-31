@@ -69,15 +69,20 @@
 @media screen and (max-width: 1023px) {
     .item15__main {
         display: grid;
-        grid-template-columns: 138px 138px;
-        grid-template-rows: 220px 220px 220px 220px;
+        grid-template-columns:280px;
+        grid-template-rows: 44px 280px 1fr 100px;
         column-gap: 17px;
         row-gap: 24px;
         justify-content: center;
         color: #333333;
         font-family: Meiryo;
         font-size: 12px;
-        &__content {
+        &__title {
+            p {
+                margin-top: 24px;
+            }
+        }
+        &__image {
             img {
                 width: 100%;
                 margin-bottom: 13px;
@@ -95,6 +100,23 @@
                     font-size: 14px;
                     font-family: Meiryo;
                 }
+            }
+        }
+        &__texts {
+            color: #333333;
+            font-family: Meiryo;
+            font-size: 14px;
+        }
+        &__text {
+            margin-bottom: 30px;
+        }
+        &__backlink {
+            text-align: center;
+            a {
+                color: #333333;
+                text-decoration: none;
+                font-size: 14px;
+                font-family: Meiryo;
             }
         }
     }
