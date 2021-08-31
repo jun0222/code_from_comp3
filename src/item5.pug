@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+html(lang="ja")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title Document
+        link(rel="stylesheet", href="css/styles.css")
+        script(src='https://code.jquery.com/jquery-3.6.0.js' integrity='sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=' crossorigin='anonymous')
+    body.item5
+        include _hamburger.pug
+        include _header.pug
+        section.item5__main
+            div.item5__main__title
+                p プロダクトタイトル
+            div.item5__main__image
+                img(src="img/item5.jpg", alt="")
+            div.item5__main__texts
+                p.item5__main__text テキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                p.item5__main__text テキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                p.item5__main__text ¥99,999 +tax
+                p.item5__main__text SIZE：W999 × D999 × H999 <br>
+                    | COLOR：テキスト<br>
+                    | MATERIAL：テキストテキストテキスト<br>
+            div.item5__main__backlink
+                a(href="products.html").hover-opacity Back To Products
+        include _footer.pug
+    script(type='text/javascript' src='js/hamburger.js' inline)
